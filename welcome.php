@@ -106,6 +106,9 @@ elseif (isset($_GET['logout'])) {
 
         <footer class="mt-auto text-white">
             <p>Created by Group 4</p>
+            <p>John Denver Balagwis</p>
+            <p>Rochelle Motol</p>
+            <p>Arvin Rioflorido</p>
         </footer>
     </div>
 
