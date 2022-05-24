@@ -147,6 +147,12 @@
                             Lyrics</a>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="container1 rounded">Gym Class Heroes - Stereo Hearts
+                        <a class="btn btn-primary btn-sm float-end" href="songs\stereoheart.php" role="button">See
+                            Lyrics</a>
+                    </div>
+                </div>
                 
             </div><br><br>
         </div>
