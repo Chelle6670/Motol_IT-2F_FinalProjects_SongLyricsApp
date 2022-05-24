@@ -163,6 +163,13 @@
                         <a class="btn btn-primary btn-sm float-end" href="songs\demons.php" role="button">See Lyrics</a>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="container1 rounded">Imagine Dragons - Whatever It Takes
+                        <a class="btn btn-primary btn-sm float-end" href="songs\whateverittakes.php" role="button">See
+                            Lyrics</a>
+                    </div>
+                </div>
+
                 
             </div><br><br>
         </div>
