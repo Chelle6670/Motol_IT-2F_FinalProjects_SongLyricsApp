@@ -196,7 +196,12 @@
                     </div>
                 </div>
 
-                
+                <div class="col-md-6">
+                    <div class="container1 rounded">Zayn - Dusk Till Dawn
+                        <a class="btn btn-primary btn-sm float-end" href="songs\dusktilldawn.php" role="button">See
+                            Lyrics</a>
+                    </div>
+                </div>
             </div><br><br>
         </div>
     </div>
