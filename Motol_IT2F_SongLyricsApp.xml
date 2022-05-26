@@ -4,11 +4,27 @@
 
 
 
-<!ELEMENT Lyrixmatch (home, topLyrics, signin)>
-<!ELEMENT home (#PCDATA)>
-<!ELEMENT topLyrics (#PCDATA)>
-<!ELEMENT signin (#PCDATA)>
-
+<!ELEMENT Lyrixmatch (home, topLyrics, signin, welcome)>
+<!ELEMENT home (title, heading, subheading, button)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT subheading (#PCDATA)>
+<!ELEMENT button (#PCDATA)>
+<!ELEMENT topLyrics (songList)>
+<!ELEMENT songList (song)>
+<!ELEMENT song (title, artist, lyrics, stanza, line)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT lyrics (#PCDATA)>
+<!ELEMENT stanza (#PCDATA)>
+<!ELEMENT line (#PCDATA)>
+<!ELEMENT signin (form, username, password, button)>
+<!ELEMENT form (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT button (#PCDATA)>
+<!ELEMENT welcome (message)>
+<!ELEMENT message (#PCDATA)>
 ]>
 <Lyrixmatch>
     <home>
@@ -19,7 +35,7 @@
     </home>
     <topLyrics>
         <songList>
-            <song1>
+            <song>
                 <title>Wake Me Up</title>
                 <artists>
                     <artist>Avicii</artist>
@@ -76,8 +92,8 @@
                         <line>I didn't know</line>
                     </stanza>
                 </lyrics>
-            </song1>
-            <song2>
+            </song>
+            <song>
                 <title>Light Switch</title>
                 <artists>
                     <artist>Charlie Puth</artist>
@@ -172,8 +188,8 @@
                         <line>You wanna keep me wantin' you (baby) </line>
                     </stanza>
                 </lyrics>
-            </song2>
-            <song3>
+            </song>
+            <song>
                 <title>Over You</title>
                 <artists>
                     <artist>Daughtry</artist>
@@ -248,8 +264,8 @@
                         <line>I got over you  </line>
                     </stanza>
                 </lyrics>
-            </song3>
-            <song4>
+            </song>
+            <song>
                 <title>What About Now</title>
                 <artists>
                     <artist>Daughtry</artist>
@@ -325,8 +341,8 @@
                         <line>What about now?</line>
                     </stanza>
                 </lyrics>
-            </song4>
-            <song5>
+            </song>
+            <song>
                 <title>Castle on the Hill</title>
                 <artists>
                     <artist>Ed Sheeran</artist>
@@ -394,8 +410,8 @@
                         <line>Over the castle on the hill </line>
                     </stanza>
                 </lyrics>
-            </song5>
-            <song6>
+            </song>
+            <song>
                 <title>Overpass Graffiti</title>
                 <artists>
                     <artist>Ed Sheeran</artist>
@@ -469,8 +485,8 @@
                         <line>Ooh, graffiti on the overpass</line>
                     </stanza>
                 </lyrics>
-            </song6>
-            <song7>
+            </song>
+            <song>
                 <title>Glass Animals</title>
                 <artists>
                     <artist>Glass Animals</artist>
@@ -586,8 +602,8 @@
                         <line>I'm swimming in a </line>
                     </stanza>
                 </lyrics>
-            </song7>
-            <song8>
+            </song>
+            <song>
                 <title>Stereo Hearts</title>
                 <artists>
                     <artist>Gym Class Heroes</artist>
@@ -681,8 +697,8 @@
                         <line>Just sing along to my stereo</line>
                     </stanza>
                 </lyrics>
-            </song8>
-            <song9>
+            </song>
+            <song>
                 <title>Birds</title>
                 <artists>
                     <artist>Imagine Dragons</artist>
@@ -745,8 +761,8 @@
                         <line>Ooh, so fly high, so fly high </line>
                     </stanza>
                 </lyrics>
-            </song9>
-            <song10>
+            </song>
+            <song>
                 <title>Demons</title>
                 <artists>
                     <artist>Imagine Dragons</artist>
@@ -823,8 +839,8 @@
                         <line>It's where my demons hide </line>
                     </stanza>
                 </lyrics>
-            </song10>
-            <song11>
+            </song>
+            <song>
                 <title>Whatever it takes</title>
                 <artists>
                     <artist>Imagine Dragons</artist>
@@ -921,8 +937,8 @@
                         <line>I do what it takes</line>
                     </stanza>
                 </lyrics>
-            </song11>
-            <song12>
+            </song>
+            <song>
                 <title>Enemy</title>
                 <artists>
                     <artist>Imagine Dragons</artist>
@@ -1016,8 +1032,8 @@
                         <line>Look out for yourself</line>
                     </stanza>
                 </lyrics>
-            </song12>
-            <song13>
+            </song>
+            <song>
                 <title>Shots</title>
                 <artists>
                     <artist>Imagine Dragons</artist>
@@ -1104,8 +1120,8 @@
                         <line>Oh, let it drift away </line>
                     </stanza>
                 </lyrics>
-            </song13>
-            <song14>
+            </song>
+            <song>
                 <title>Ghost</title>
                 <artists>
                     <artist>Justin Beiber</artist>
@@ -1159,8 +1175,8 @@
                         <line>I miss you more than life</line>
                     </stanza>
                 </lyrics>
-            </song14>
-            <song15>
+            </song>
+            <song>
                 <title>INDUSTRY BABY</title>
                 <artists>
                     <artist>Lil Nas X</artist>
@@ -1268,8 +1284,8 @@
                         <line>Yeah</line>
                     </stanza>
                 </lyrics>
-            </song15>
-            <song16>
+            </song>
+            <song>
                 <title>Dusk Till Dawn</title>
                 <artists>
                     <artist>ZAYN</artist>
@@ -1388,14 +1404,17 @@
                         <line>Baby, I am right here </line>
                     </stanza>
                 </lyrics>
-            </song16>
+            </song>
         </songList>
     </topLyrics>
     <signin>
         <form>
-            <inputUsername>Enter username:</inputUsername>
-            <inputPassword>Enter password:</inputPassword>
+            <username>Enter username:</username>
+            <password>Enter password:</password>
             <button>Sign in</button>
         </form>
     </signin>
+    <welcome>
+        <message>Congratulations! You are now logged in.</message>
+    </welcome>
 </Lyrixmatch>
